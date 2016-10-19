@@ -68,6 +68,7 @@ class Stats {
 
         $objDB = DBConnect::getInstance();
         $objDB->insertFeeds($data);
+        echo "Data saved successfully!";
     }
 
     function unPackBitThirtyTwo($packed) {
